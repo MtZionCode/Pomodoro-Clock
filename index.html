@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="Pomodoro Clock.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="Pomodoro Clock.js"></script>
+    <title></title>
+  </head>
+
+  <body>
+    <h2>Pomodoro Clock Web App</h2>
+    <div class="container-fluid">
+      <div class="top row">
+        <div class="decrease">
+          <h1>-</h1>
+        </div>
+
+        <div class="time-display" id="number">
+          888888
+        </div>
+
+        <div class="increase">
+          <h1>+</h1>
+        </div>
+      </div>
+
+      <div class="middle row">
+        <div class="display-holder">
+          <div class="radar-background">
+            <div class="Pie-Chart slice">
+              <!--Pie-Chart is a green/chart color/combo, and is default view of the countdown representation display-->
+              <!--Slice is the dynamic part of the representation display that will constantly move/rotate to give the animation-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-row">
+        <div class="holder-1">
+          <div class="state-1">
+            <h3>ON</h3>
+          </div>
+          <div class="start-resume" isEnabled>
+            <h3>START/RESUME</h3>
+          </div>
+        </div>
+
+        <div class="pause" isEnabled>
+          <h2>PAUSE</h2>
+        </div>
+
+        <div class="holder-2">
+          <div class="state-2">
+            <h3>OFF</h3>
+          </div>
+          <div class="stop-reset" isEnabled>
+            <h3>STOP/RESET</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
