@@ -1,0 +1,304 @@
+h2 {
+  text-align: center;
+}
+
+.container-fluid {
+  width: 350px;
+  height: 475px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  box-shadow: 1px 0px 20px 4px #000;
+  margin: auto;
+}
+
+.top.row {
+  width: 320px;
+  height: 60px;
+  margin: auto;
+  text-align: center;
+}
+
+.decrease {
+  width: 50px;
+  height: 50px;
+  background-color: #999999;
+  border-top-left-radius: 50px;
+  float: left;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 2px solid black;
+  outline: none;
+  box-shadow: 1px 3px 2px #444, inset 0px 0px 12px 0px #000;
+  font-weight: bold;
+  line-height: .5em;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  000;
+  outline: none;
+  cursor: pointer;
+}
+
+.decrease:active {
+  /*this code is optional: 1px 3px 2px #444,*/
+  box-shadow: 1px 3px 2px #444;
+}
+
+.time-display {
+  width: 200px;
+  height: 50px;
+  border: 1px solid yellow;
+  text-align: center;
+  box-shadow: inset 0px 5px 20px 0px #000;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #430710;
+  border: 1px solid #615d5d;
+  color: #680b19;
+  line-height: 20px;
+  font-family: digital-7;
+}
+
+#number {
+  font-size: 55px;
+  line-height: 50px;
+  text-align: center;
+  margin: auto;
+  font-family: digital-7;
+  color: #680b19;
+}
+
+.on {
+  color: red;
+  font-size: 55px;
+  font-family: digital-7;
+  line-height: 1.85em;
+  text-align: center;
+}
+
+.increase {
+  width: 50px;
+  height: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  float: right;
+  line-height: .75em;
+  font-weight: bold;
+  color: white;
+  background-color: #999999;
+  border: 2px solid black;
+  outline: none;
+  box-shadow: 1px 3px 2px #444, inset 0px 0px 12px 0px #000;
+  outline: none;
+  cursor: pointer;
+}
+
+.increase:active {
+  /*this code is optional: 1px 3px 2px #444,*/
+  box-shadow: 1px 3px 2px #444;
+}
+
+.decrease,
+.time-display,
+.increase {
+  display: inline-block;
+  user-select: none;
+}
+
+.middle.row {
+  border-radius: 20px;
+  border: 1px solid #615d5d;
+  height: 300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.display-holder {
+  /*background-image: linear-gradient(red, #282828);*/
+  width: 300px;
+  height: 300px;
+  position: relative;
+  box-shadow: inset 0px 5px 20px 0px #000;
+}
+
+.radar-background {
+  position: absolute;
+  left: 13px;
+  /*border: 1px solid white;*/
+  width: 300px;
+  height: 300px;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
+  height: 100%;
+  background-size: 50px 50px;
+}
+
+.Pie-Chart {
+  background-color: rgba(12, 255, 0, 0.45);
+  /*position: absolute;*/
+  /*left: 13px;*/
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.bottom-row {
+  width: 320px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.holder-1 {
+  width: 85px;
+  height: 100px;
+  float: left;
+}
+
+.state-1 {
+  width: 80px;
+  height: 30px;
+  margin-bottom: 5px;
+  background-color: #07ff28;
+  ;
+  border-radius: 5px;
+  float: left;
+  color: white;
+  font-size: .5em;
+  text-transform: uppercase;
+  outline: none;
+  box-shadow: 1px 3px 2px #444, inset 0px 0px 12px 0px #000;
+  cursor: pointer;
+}
+
+.state-1:active {
+  /*this code is optional: 1px 3px 2px #444,*/
+  box-shadow: 1px 3px 2px #444;
+}
+
+.start-resume {
+  width: 80px;
+  height: 50px;
+  background-color: #07ff28;
+  ;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 5px;
+  float: left;
+  color: white;
+  font-size: .5em;
+  text-transform: uppercase;
+  outline: none;
+  box-shadow: 1px 3px 2px #444, inset 0px 0px 12px 0px #000;
+  cursor: pointer;
+}
+
+.start-resume:active {
+  /*this code is optional: 1px 3px 2px #444,*/
+  box-shadow: 1px 3px 2px #444;
+}
+
+.pause {
+  width: 140px;
+  height: 85px;
+  /*border: 1px solid yellow;*/
+  background-color: #05c0ff;
+  text-align: center;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  line-height: 2.75em;
+  outline: none;
+  box-shadow: 1px 3px 2px #444, inset 0px 0px 12px 0px #000;
+  cursor: pointer;
+}
+
+.pause:active {
+  /*this code is optional: 1px 3px 2px #444,*/
+  box-shadow: 1px 3px 2px #444;
+}
+
+.holder-2 {
+  width: 85px;
+  height: 100px;
+  float: right;
+}
+
+.state-2 {
+  width: 80px;
+  height: 30px;
+  margin-bottom: 5px;
+  background-color: #ff0000;
+  border-radius: 5px;
+  float: right;
+  color: white;
+  font-size: .5em;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+
+.state-2:active {
+  /*this code is optional: 1px 3px 2px #444,*/
+  box-shadow: 1px 3px 2px #444;
+}
+
+.stop-reset {
+  width: 80px;
+  height: 50px;
+  background-color: #ff0000;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 5px;
+  float: right;
+  color: white;
+  font-size: .5em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.stop-reset:active {
+  /*this code is optional: 1px 3px 2px #444,*/
+  box-shadow: 1px 3px 2px #444;
+}
+
+.state-1,
+.state-2,
+.start-resume,
+.pause,
+.stop-reset {
+  display: inline-block;
+  box-shadow: inset 0px 0px 12px 0px #000;
+  outline: none;
+  user-select: none;
+}
+
+.on {
+  color: red !important;
+  font-size: 55px;
+  font-family: digital-7;
+  line-height: 1.85em;
+  text-align: center;
+}
+
+/*[isEnabled="false"] {
+  background: gray !important;
+  pointer-events: none;
+}*/
